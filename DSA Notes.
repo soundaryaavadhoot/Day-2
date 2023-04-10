@@ -1,0 +1,9 @@
+# Day-2
+Time Complexity.
+     For example, in case of addition of two n-bit integers, N steps are taken.
+     Consequently, the total computational time is t(N) = c*n, where c is the time consumed for addition of two bits. 
+     Here, we observe that t(N) grows linearly as input size increases.
+
+Space Complexity.
+      As the array a is of an integer data type with the size n, so the array will take 4*n bits of space in the computational device.
+      And n, x, and i will also individually requires 4 bytes each as of integer type, so the 3 combined will require 12 bytes of space.
